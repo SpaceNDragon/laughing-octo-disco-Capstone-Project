@@ -1,0 +1,40 @@
+<html>
+    <head> 
+        <title> Calories Prediction using Multile Linear Regression </title>
+    </head>
+
+    <div class="container">
+        <section class="jumbotron text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="jumbotron-heading"><font color="red"> E-Mail Spam Detection </font> </h1>
+              <p class="lead text-black">
+                <h3> Please enter your text to check whether Email is spam or not </h3>
+                </p>
+    
+    
+    
+    
+            </div>
+    
+            <div class="col-sm-6">
+                <div class="container">
+                    <form method="POST" action="/predict">
+                    <textarea  name="message" class="form-control" cols="8" rows="8" placeholder="Enter Text"></textarea>
+                    <br>
+                    <button class="btn btn-success" type="submit">Check</button>
+    
+                    <button style="margin-left: 10px;" class="btn btn-danger" type="reset">Reset</button>
+    
+                </form>
+                <br>
+    
+    
+                </div>
+            </div>
+        </div>
+
+   <h3> The text is = {{var}}</h3>
+
+</div>
+</html>
